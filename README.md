@@ -41,12 +41,12 @@ nit = 30;       % Number of iterations
 
 frequency = 20; % Source peak frequency (Hz)
 
-2. Run the Code
+###2. Run the Code
 Execute the script in MATLAB:
 
 matlab
 lsrtm_matlab_main; % Start LSRTM with Anderson Acceleration
-3. Outputs
+###3. Outputs
 mig_lsrtm[iter].dat: Reconstructed reflectivity model at each iteration.
 
 gradient[iter].dat: Gradient updates.
