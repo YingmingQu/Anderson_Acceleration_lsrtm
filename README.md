@@ -26,13 +26,21 @@ Key features:
 Modify the following parameters in `lsrtm_matlab_main.m`:
 matlab
 nx = 368;       % Grid size in x-direction
+
 nz = 200;       % Grid size in z-direction
+
 dx = 10.0;      % Grid spacing (meters)
+
 dz = 10.0;      % Grid spacing (meters)
+
 dt = 0.5;       % Time step (seconds)
+
 tmax = 3.0;     % Maximum simulation time (seconds)
+
 nit = 30;       % Number of iterations
+
 frequency = 20; % Source peak frequency (Hz)
+
 2. Run the Code
 Execute the script in MATLAB:
 
