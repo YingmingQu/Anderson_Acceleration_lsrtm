@@ -66,7 +66,7 @@ mem_size	History size for acceleration
 - Visualize outputs using MATLAB’s `imagesc` or external tools like Python’s `matplotlib`.
 
 ##Image
-![Vp_model]()
-![Shot]()
+![Vp_model](https://github.com/YingmingQu/Anderson_Acceleration_lsrtm/blob/main/vpsmooth.jpg?raw=true)
+![Shot_born](https://github.com/YingmingQu/Anderson_Acceleration_lsrtm/blob/main/shot_born%20%5B2%5D.jpg?raw=true)
 ![Imaging](https://github.com/YingmingQu/Anderson_Acceleration_lsrtm/blob/main/mig_lsrtm30.jpg?raw=true)
 
