@@ -41,12 +41,12 @@ nit = 30;       % Number of iterations
 
 frequency = 20; % Source peak frequency (Hz)
 
-###2. Run the Code
+### 2. Run the Code
 Execute the script in MATLAB:
 
 matlab
 lsrtm_matlab_main; % Start LSRTM with Anderson Acceleration
-###3. Outputs
+### 3. Outputs
 mig_lsrtm[iter].dat: Reconstructed reflectivity model at each iteration.
 
 gradient[iter].dat: Gradient updates.
@@ -65,7 +65,7 @@ mem_size	History size for acceleration
 - Adjust `mem_size` and `beta` to balance convergence speed and memory usage.
 - Visualize outputs using MATLAB’s `imagesc` or external tools like Python’s `matplotlib`.
 
-##Image
+### 4. Image
 ![Vp_model](https://github.com/YingmingQu/Anderson_Acceleration_lsrtm/blob/main/vpsmooth.jpg?raw=true)
 ![Shot_born](https://github.com/YingmingQu/Anderson_Acceleration_lsrtm/blob/main/shot_born%20%5B2%5D.jpg?raw=true)
 ![Imaging](https://github.com/YingmingQu/Anderson_Acceleration_lsrtm/blob/main/mig_lsrtm30.jpg?raw=true)
