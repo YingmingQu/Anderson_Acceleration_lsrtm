@@ -64,3 +64,9 @@ mem_size	History size for acceleration
 - Preprocess input velocity models using smoothing filters to avoid high-wavenumber artifacts.
 - Adjust `mem_size` and `beta` to balance convergence speed and memory usage.
 - Visualize outputs using MATLAB’s `imagesc` or external tools like Python’s `matplotlib`.
+
+##Image
+![Vp_model]()
+![Shot]()
+![Imaging](https://github.com/YingmingQu/Anderson_Acceleration_lsrtm/blob/main/mig_lsrtm30.jpg?raw=true)
+
